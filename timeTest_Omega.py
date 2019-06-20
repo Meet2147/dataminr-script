@@ -7,7 +7,7 @@ import time
 import pandas as pd
 
 ## Open auto-browser window
-bot = webdriver.chrome.webdriver.WebDriver()
+bot = webdriver.safari.webdriver.WebDriver()
 bot.set_page_load_timeout(360)
 bot.maximize_window()
 
